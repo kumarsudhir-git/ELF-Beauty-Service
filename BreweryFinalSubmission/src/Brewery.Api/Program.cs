@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// DI Registration
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var adIssuer = builder.Configuration["AzureAd:Issuer"];
