@@ -1,6 +1,7 @@
 ﻿using Brewery.Application.Interfaces;
 using Brewery.Domain.Entities;
 using Brewery.Domain.Helpers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,8 +10,8 @@ using System.Threading.Tasks;
 
 namespace Brewery.Api.Controllers
 {
+    //[Authorize] -- Commenting it as need to write logic for creation of token, will enable it once that is done.
     [ApiController]
-    //[Route("api/[controller]")]
     public class BreweryController : ControllerBase
     {
         private readonly IBreweryService _breweryService;
