@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BreweryFinalSubmission/.vs
+/BreweryFinalSubmission/src/Brewery.Api/bin/Debug/net8.0
+/BreweryFinalSubmission/src/Brewery.Api/obj
+/BreweryFinalSubmission/src/Brewery.Application/bin/Debug/net8.0
+/BreweryFinalSubmission/src/Brewery.Domain/bin/Debug/net8.0
+/BreweryFinalSubmission/src/Brewery.Infrastructure/bin/Debug/net8.0
+/BreweryFinalSubmission/tests/Brewery.Tests/bin/Debug/net8.0
+/BreweryFinalSubmission/tests/Brewery.Tests/obj
